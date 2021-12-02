@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zettaByte Test</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/7cc751e5b6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="container">
+      <div class="card">
+        <div class="card-image nature-image"></div>
+        <h2>Top Winter locations</h2>
+        <h4>More than 200 locations</h4>
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin litera
+        </p>
+        <div class="link">
+          <a href="click">SHARE</a>
+          <a href="">EXPLORE</a>
+        </div>
+        <div class="button">
+            <button id="myBtn">More Info</button>
+        </div>
+       
+      </div>
+      <div class="card">
+        <div class="card-image nature-image"></div>
+        <h2>Top eastern road trips</h2>
+        <h4>2,000 miles of wonder</h4>
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin litera
+        </p>
+        <div class="link">
+          <a href="">SHARE</a>
+          <a href="">EXPLORE</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="ava">
+          <img
+            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+          <h3>mikael</h3>
+        </div>
+        <h4>20 minutes ago</h4>
+        <div class="card-image nature-image"></div>
+        <h2>Kangaroo Valley Safari</h2>
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin litera
+        </p>
+      </div>
+      <div class="card3">
+        <div class="card-image nature-image"></div>
+        <div class="icons"> 
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-bookmark"></i>
+            <i class="fas fa-map-marker-alt"></i>
+        </div>
+      </div>
+    </section>
+    <!-- modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It
+            has roots in a piece of classical Latin litera</p>
+        <script>
+          // Get the modal
+          var modal = document.getElementById("myModal");
+
+          // Get the button that opens the modal
+          var btn = document.getElementById("myBtn");
+
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+
+          // When the user clicks the button, open the modal
+          btn.onclick = function () {
+            modal.style.display = "block";
+          };
+
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function () {
+            modal.style.display = "none";
+          };
+
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function (event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          };
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

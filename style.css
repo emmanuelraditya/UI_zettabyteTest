@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: dimgray;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 220px;
+  height: auto;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card3 {
+  background: white;
+  width: 220px;
+  height: 280px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card:hover {
+  background-color: rgb(38, 37, 37);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+.card h2 {
+  padding: 10px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.ava {
+  display: flex;
+  padding: 10px;
+}
+
+.card h3 {
+  padding: 10px;
+}
+.card h4 {
+  padding: 10px;
+  color: rgba(196, 196, 196, 0.803);
+}
+
+.card p {
+  padding: 10px;
+}
+
+.link {
+  display: flex;
+}
+.card a {
+  color: rgb(45, 126, 126);
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.card-image {
+  background-color: violet;
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.nature-image {
+  background-image: url(https://image.freepik.com/free-photo/vertical-shot-beautiful-starry-sky_181624-42267.jpg);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button {
+  padding: 10px;
+}
+
+#myBtn {
+  cursor: pointer;
+}
+
+.icons {
+  float: right;
+  padding: 10px;
+}
